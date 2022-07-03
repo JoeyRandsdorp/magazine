@@ -192,7 +192,7 @@ function keepTeam(){
         teamMemberImgBox.className = img;
 
         let teamMemberImg = document.createElement('img');
-        teamMemberImg.src = data.detailsImg;
+        teamMemberImg.src = pokemon.detailsImg;
 
         teamMemberImgBox.appendChild(teamMemberImg);
         teamMemberBox.appendChild(teamMemberImgBox);
